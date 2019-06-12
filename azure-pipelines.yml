@@ -53,4 +53,4 @@ steps:
     azureSubscription: $(serviceConnectionToAzure)
     appType: webAppLinux
     appName: $(appName)
-    package: $(build.artifactstagingdirectory)/**/*.war
+    package: $(build.artifactstagingdirectory)/**/*.jar
